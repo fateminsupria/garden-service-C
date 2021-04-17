@@ -1,0 +1,15 @@
+.reviews .container{
+    /* background-image: url(../../../images/rooftop.png); */
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 150px;
+    color:rgb(18, 19, 18);
+}
+.reviews .card{
+    border-color: transparent;
+}
+
+.reviews .card .card-footer{
+    background: transparent;
+    border: 0;
+}
