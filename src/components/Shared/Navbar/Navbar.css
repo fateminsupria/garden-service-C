@@ -1,19 +1,4 @@
-/* .nav-item
-{
-    border: 10px solid white ;
-    background-color: rgb(95, 146, 17);
-    padding: 10px 20px;
-    font-size: 20px;
-    cursor: pointer;
-    margin: 10px;
-    transition: 0.8s;
-    
-} */
 
-/* .container{
-    text-align: center;
-    margin-top: 360px;
-} */
 .btn{
     border: 1px solid #ecf1ea;
     background: #0d910d;
@@ -38,33 +23,7 @@
 .btn5:hover{
     color:#dee9de;
 }
-/* .btn::before{
-    content: "";
-    position:absolute;
-    left:0;
-    width: 100%;
-    height:100%;
-    background: #0d910d;
-    z-index: -1;
-    transition:0.8s;
-} */
-/* .btn1::before,.btn3::before{
-    top: 0;
-    border-radius: 0 0 50% 50%;
-}
-.btn2::before,.btn4::before{
-   bottom: 0;
-    border-radius: 50% 50% 0 0;
-}
-.btn3::before,.btn4::before{
-    height:180%;
-}
-.btn1:hover::before,.btn2:hover::before{
-    height: 180%;
-}
-.btn3:hover::before,.btn4:hover::before{
-    height: 0%;
-} */
+
 
 
 

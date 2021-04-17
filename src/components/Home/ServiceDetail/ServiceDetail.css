@@ -1,0 +1,12 @@
+.bookNow{
+    border: 1px solid #e9f0e5;
+    border-radius: 40px 40px 40px 40px;
+    border: 1px solid #183a05;
+    cursor: pointer;
+    margin:10px;
+    transition:0.8s;
+}
+
+.bookNow:hover{
+    color:#dee9de;
+}

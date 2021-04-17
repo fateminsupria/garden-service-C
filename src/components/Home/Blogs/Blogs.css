@@ -14,7 +14,6 @@
     transition:  .1s  all ease-in-out !important;
 }
 .blogs .card:hover .card-body{
-    /* background-image: url(../../../images/quote.png); */
     background-repeat: no-repeat;
     background-position: right top;
     background-size: 60%;

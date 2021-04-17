@@ -16,6 +16,8 @@ import PrivateRoute from './components/Login/PrivateRoute/PrivateRoute';
 
 export const UserContext = createContext();
 function App() {
+  document.title = "Grasshopper Garden Service";
+  
   const [loggedInUser, setLoggedInUser] = useState({});
   return (
     <UserContext.Provider value={[loggedInUser, setLoggedInUser]}>

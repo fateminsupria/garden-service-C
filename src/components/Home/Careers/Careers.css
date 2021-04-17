@@ -1,0 +1,17 @@
+.btn-cv{
+    border: 1px solid #e9f0e5;
+    background: #0d910d;
+    padding:10px 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin:10px;
+    transition:0.8s;
+    
+}
+.btn-cv:hover{
+    color:#dee9de;
+}
+.join-section{
+    background-position: center;
+    background-color: rgb(158, 158, 17);
+}

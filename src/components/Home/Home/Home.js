@@ -8,6 +8,8 @@ import MakeAppointment from '../MakeAppointment/MakeAppointment';
 import Reviews from '../Reviews/Reviews';
 import Services from '../Services/Services';
 import Teams from '../Teams/Teams';
+import Careers from '../Careers/Careers';
+
 
 const Home = () => {
     return (
@@ -19,6 +21,7 @@ const Home = () => {
             <Reviews></Reviews>
             <Blogs></Blogs>
            <Teams></Teams>
+         <Careers></Careers>
            <Contact></Contact>
            <Footer></Footer>
 

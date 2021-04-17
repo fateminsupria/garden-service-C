@@ -1,8 +1,9 @@
 import React from 'react';
+import './Careers.css';
 
 const careers = () => {
     return (
-        <div>
+        <div className="join-section">
           <h1>Careers</h1>  
           <h3>We are offering great opportunities to join our team:</h3>
           <p>Garden Services is a commercial landscape management and
@@ -11,6 +12,7 @@ const careers = () => {
           properties throughout Board County.
          We are always seeking applicants who love landscaping and 
          are committed to providing a professional level of service.</p>
+         <button className="btn-cv">Send Your CV here</button>
         </div>
     );
 };

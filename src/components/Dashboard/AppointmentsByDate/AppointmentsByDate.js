@@ -1,5 +1,4 @@
 import React from 'react';
-// import AppointmentDataTable from '../AppointmentDataTable/AppointmentDataTable';
 import AppointmentShortList from '../AppointmentShortList/AppointmentShortList';
 
 const AppointmentsByDate = ({ appointments }) => {
