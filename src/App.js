@@ -10,14 +10,14 @@ import Login from './components/Login/Login/Login';
 import Appointment from './components/Appointment/Appointment/Appointment';
 import Dashboard from './components/Dashboard/Dashboard/Dashboard';
 import AllClients from './components/AllClients/AllClients/AllClients';
-import AddGardener from './components/AddGardener/AddGardener';
 import PrivateRoute from './components/Login/PrivateRoute/PrivateRoute';
+import AddGardener from './components/AddGardener/AddGardener';
 
 
 export const UserContext = createContext();
 function App() {
   document.title = "Grasshopper Garden Service";
-  
+
   const [loggedInUser, setLoggedInUser] = useState({});
   return (
     <UserContext.Provider value={[loggedInUser, setLoggedInUser]}>

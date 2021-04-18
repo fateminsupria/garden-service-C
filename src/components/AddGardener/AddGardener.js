@@ -22,7 +22,7 @@ const AddGardener = () => {
         formData.append('name', info.name);
         formData.append('email', info.email);
 
-        fetch('http://localhost:3000/addGardener', {
+        fetch('http://localhost:5000/addAGardener', {
             method: 'POST',
             body: formData
         })
